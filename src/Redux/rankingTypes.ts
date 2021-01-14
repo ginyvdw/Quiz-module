@@ -1,0 +1,1 @@
+export const ADD_RANKING = "ADD_RANKING";

@@ -1,0 +1,80 @@
+.ranking-page__container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #131953;
+}
+
+.ranking-page__ranking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ranking-page__ranking--score {
+  margin-left: 25px;
+}
+
+.ranking-page__first-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ranking-page__all-ranking {
+  width: 80%;
+}
+
+.ranking-page__input {
+  margin-top: 20px;
+  height: 30px;
+  border: 2px solid #131953;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ranking-page__start-button {
+  width: 180px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+table {
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+}
+
+table th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+/*# sourceMappingURL=RankingPage.css.map */

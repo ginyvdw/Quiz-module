@@ -1,0 +1,67 @@
+.overview-page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #131953;
+}
+
+.overview-page__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.overview-page__question-block {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.overview-page__all-questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+
+.overview-page__anwser {
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 10px;
+  color: #fff;
+}
+
+.overview-page__anwser--true {
+  background: #25B26F;
+}
+
+.overview-page__anwser--false {
+  background: #B21B05;
+}
+
+.overview-page__ranking-button {
+  width: 140px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=OverViewPage.css.map */
